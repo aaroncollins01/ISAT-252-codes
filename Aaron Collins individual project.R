@@ -1,0 +1,8 @@
+library(maps)
+library(mapdata)
+map()
+map.axes()
+map.scale()
+map.scale(x=-175, y=-40, relwidth=0.1, cex=0.4)
+map(xlim=c(10, 180), ylim=c(35,80), fill=TRUE, col="purple", bg="yellow")
+title(main="Russia")
